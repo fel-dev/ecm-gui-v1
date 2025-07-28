@@ -1,44 +1,71 @@
-# TÍTULO DO PROJETO
+# 🧼 EasyCleanMate GUI
 
-`CURSO`
+Projeto pessoal desenvolvido após minha graduação em **Análise e Desenvolvimento de Sistemas (PUC Minas, 2025)**, com o objetivo de aplicar na prática os conceitos aprendidos ao longo dos três anos de curso.
 
-`DISCIPLINA`
+O EasyCleanMate é uma ferramenta gráfica leve e eficiente para **limpeza de arquivos temporários e otimização de memória** no Windows, criada em **C++ com WinUI**. Este projeto foi elaborado com base em modelos acadêmicos como o de Pressman, mas repensado para aplicações reais e práticas.
 
-`SEMESTRE`
+> Este repositório representa não apenas um exercício técnico, mas também um reflexo da minha trajetória de aprendizado e minha capacidade de transformar teoria em software funcional.
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+~~Interface gráfica desenvolvida em **C++ com WinUI**, voltada para limpeza de arquivos temporários e otimização de memória no Windows. Inspirado em ferramentas como Mem Reduct e C-Cleaner, o EasyCleanMate combina eficiência, leveza e uma experiência moderna de usuário.~~
 
-## Integrantes
+---
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+## ✨ Features
 
-## Orientador
+- Identificação e remoção de arquivos temporários
+- Otimização de uso da memória RAM
+- Interface intuitiva com feedback visual
+- Compatível com as versões mais recentes do Windows
 
-* Nome completo do professor orientador
+## 🛠 Tecnologias
 
-## Instruções de utilização
+- C++
+- WinUI
+- Windows API
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-# Documentação
+## 🚀Instruções de utilização
 
-<ol>
-<li><a href="documentos/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="documentos/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-<li><a href="documentos/03-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="documentos/04-Testes de Software.md"> Testes de Software</a></li>
-<li><a href="documentos/05-Implantação.md"> Implantação</a></li>
-</ol>
+> *Em desenvolvimento.*  
+As instruções de instalação e execução serão publicadas assim que o build inicial estiver disponível.
 
-# Código
+## 📁 Estrutura
 
-<li><a href="codigo-fonte/README.md"> Código Fonte</a></li>
+    ecm-gui-v1/ 
+    ├── apresentacao/ 
+    ├── atas/ 
+    ├── codigo-fonte/ 
+    ├── documentos/ 
+    ├── proex/ 
+    └── README.md
 
-# Apresentação
 
-<li><a href="apresentacao/README.md"> Apresentação da solução</a></li>
+## 📄 Documentação
+
+Baseada no modelo Pressman e no projeto Wally da PUC Minas.
+
+- [Documentação de Contexto](documentos/01-Documentação%20de%20Contexto.md)
+- [Especificação do Projeto](documentos/02-Especificação%20do%20Projeto.md)
+- [Projeto de Interface](documentos/03-Projeto%20de%20Interface.md)
+- [Testes de Software](documentos/04-Testes%20de%20Software.md)
+- [Implantação](documentos/05-Implantação.md)
+
+## 💻 Código
+
+- [Código Fonte](codigo-fonte/README.md)
+
+## 🎞 Apresentação
+
+- [Apresentação da solução](apresentacao/README.md)
+
+## 👤 Autor
+
+Desenvolvido por [Felipe Carneiro](https://github.com/fel-dev)
+
+## 📢 Contribuições
+
+Pull requests são bem-vindos. Para sugestões, abra uma issue!
+
+## 📜 Licença
+
+Este projeto está sob a licença [MIT](LICENSE).
