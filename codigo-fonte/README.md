@@ -12,9 +12,10 @@ The EasyCleanMate GUI application is intended for deployment on:
 - Compatibility: Designed to run on modern Windows machines with sufficient memory and disk space for optimization tasks
  
 
-## Histórico de versões
-
-### [0.1.0] - TBD
-#### Adicionado
-- Project structure  
-- Initial documentation draft 
+## Version History
+### [0.1.0] - 28/07/2025
+#### Added
+- Base documentation structure (README, architecture outline)
+- Initial deployment information
+- Slide-based presentation model for technical overview
+- For details [see](/codigo-fonte/CHANGELOG.md) the file `CHANGELOG.MD`.
