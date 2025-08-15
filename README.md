@@ -34,7 +34,9 @@ As instruções de instalação e execução serão publicadas assim que o build
     ecm-gui-v1/ 
     ├── apresentacao/ 
     ├── atas/ 
-    ├── codigo-fonte/ 
+    ├── codigo-fonte/
+        ├── EasyCleanMate-GUI/
+        ├── Legacy-CLI/
     ├── documentos/ 
     ├── proex/ 
     └── README.md
@@ -57,6 +59,9 @@ Baseada no modelo Pressman e no projeto Wally da PUC Minas.
 ## 🎞 Apresentação
 
 - [Apresentação da solução](apresentacao/README.md)
+- [Apresentação da solução (PPTX)](apresentacao/EasyCleanMate-Efficient-Memory-Optimization-Solution.pptx)
+- [Atas de Reunião](atas/README.md)
+
 
 ## 👤 Autor
 

@@ -171,3 +171,6 @@ $tf/
 **/[Cc]odigo-fonte/[Ee]asy [Cc]lean [Mm]ate [Ww]in[Uu][Ii]/[Ee]asy [Cc]lean [Mm]ate [Ww]in[Uu][Ii].csproj.user
 **/[Cc]odigo-fonte/[Ee]asy [Cc]lean [Mm]ate [Ww]in[Uu][Ii]/[Pp]roperties/[Pp]ublish[Pp]rofiles/
 **/[Cc]odigo-fonte/[Ee]asy [Cc]lean [Mm]ate [Ww]in[Uu][Ii]/[Pp]roperties/launchSettings.json
+
+# Visual Studio Community
+.vs/

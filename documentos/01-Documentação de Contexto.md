@@ -1,3 +1,7 @@
+# 🏘️ Descrição do Parceiro (Fictício)
+
+> A “Comunidade EasyClean” representa um grupo fictício de usuários domésticos e profissionais que enfrentam dificuldades com a lentidão de seus computadores devido ao acúmulo de arquivos temporários e desnecessários. Sem conhecimento técnico aprofundado, esses usuários buscam soluções simples e eficazes para melhorar o desempenho de seus sistemas. O projeto Easy Clean Mate GUI surge como uma resposta a essa demanda, oferecendo uma interface gráfica amigável e funcional para facilitar a limpeza e manutenção do sistema.
+
 # Introdução
 
 Texto descritivo apresentando a compreensão sobre extensão universitária discutido no microfundamento de nivelamento, relacionando a situação-problema da organização e ao sistema sociotécnico que será desenvolvido e implantado.
@@ -26,6 +30,8 @@ Descreva as dores/dificuldades do parceiro que motivam trabalhar na construção
 Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
 Apresentar aqui como este projeto extensionista transforma a realidade do parceiro e dos alunos.
 
-## Descrição do Parceiro
+## 🏘️ Descrição do Parceiro (Fictício)
 
-Apresente uma descrição resumida sobre a organização onde o projeto será desenvolvido para que possa ser compreendido o cenário do sistema sociotécnico.
+~~Apresente uma descrição resumida sobre a organização onde o projeto será desenvolvido para que possa ser compreendido o cenário do sistema sociotécnico.~~
+
+A “Comunidade EasyClean” representa um grupo fictício de usuários domésticos e profissionais que enfrentam dificuldades com a lentidão de seus computadores devido ao acúmulo de arquivos temporários e desnecessários. Sem conhecimento técnico aprofundado, esses usuários buscam soluções simples e eficazes para melhorar o desempenho de seus sistemas. O projeto Easy Clean Mate GUI surge como uma resposta a essa demanda, oferecendo uma interface gráfica amigável e funcional para facilitar a limpeza e manutenção do sistema.
