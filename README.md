@@ -36,7 +36,7 @@ As instruções de instalação e execução serão publicadas assim que o build
     ├── atas/ 
     ├── codigo-fonte/
         ├── EasyCleanMate-GUI/
-        ├── Legacy-CLI/
+        └── Legacy-CLI/
     ├── documentos/ 
     ├── proex/ 
     └── README.md
