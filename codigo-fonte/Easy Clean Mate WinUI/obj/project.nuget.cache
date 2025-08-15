@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "R8+/cXL5xBE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\corre\\OneDrive\\Dev\\ecm-gui-v1\\codigo-fonte\\Easy Clean Mate WinUI\\Easy Clean Mate WinUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.26100.4654\\microsoft.windows.sdk.buildtools.10.0.26100.4654.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250606001\\microsoft.windowsappsdk.1.7.250606001.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\8.0.19\\microsoft.netcore.app.runtime.win-arm64.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.19\\microsoft.netcore.app.runtime.win-x86.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.19\\microsoft.netcore.app.runtime.win-x64.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.19\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.19\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.19\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.19\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.19\\microsoft.aspnetcore.app.runtime.win-x86.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.19\\microsoft.aspnetcore.app.runtime.win-x64.8.0.19.nupkg.sha512",
+    "C:\\Users\\corre\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+  ],
+  "logs": []
+}

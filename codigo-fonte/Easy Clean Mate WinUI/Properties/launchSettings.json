@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Easy Clean Mate WinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Easy Clean Mate WinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
