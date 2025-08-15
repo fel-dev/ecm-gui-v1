@@ -1,5 +1,5 @@
-> ## 🧑‍💻 Nota de Contexto
-> Este projeto é de natureza fictícia e foi desenvolvido por um recém-formado em Análise e Desenvolvimento de Sistemas (similar à área de Computer Science, em referência global) como forma de manter a prática, revisar conteúdos acadêmicos e exercitar habilidades técnicas e documentais. A proposta simula um cenário de extensão universitária voltado à própria experiência do autor com problemas cotidianos de lentidão e acúmulo de arquivos temporários no sistema operacional Windows. O objetivo é aplicar conceitos aprendidos na graduação para propor uma solução acessível e funcional, sem vínculo com nenhuma organização real.
+> ### 🧑‍💻 Nota de Contexto
+>Este projeto é de natureza fictícia e foi desenvolvido por um recém-formado em Análise e Desenvolvimento de Sistemas (similar à área de Computer Science, em referência global) como forma de manter a prática, revisar conteúdos acadêmicos e exercitar habilidades técnicas e documentais. A proposta simula um cenário de extensão universitária voltado à própria experiência do autor com problemas cotidianos de lentidão e acúmulo de arquivos temporários no sistema operacional Windows. O objetivo é aplicar conceitos aprendidos na graduação para propor uma solução acessível e funcional, sem vínculo com nenhuma organização real.
 
 # Introdução
 
