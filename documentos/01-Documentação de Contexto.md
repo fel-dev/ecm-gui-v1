@@ -1,6 +1,5 @@
-# 🏘️ Descrição do Parceiro (Fictício)
-
-> A “Comunidade EasyClean” representa um grupo fictício de usuários domésticos e profissionais que enfrentam dificuldades com a lentidão de seus computadores devido ao acúmulo de arquivos temporários e desnecessários. Sem conhecimento técnico aprofundado, esses usuários buscam soluções simples e eficazes para melhorar o desempenho de seus sistemas. O projeto Easy Clean Mate GUI surge como uma resposta a essa demanda, oferecendo uma interface gráfica amigável e funcional para facilitar a limpeza e manutenção do sistema.
+> ## 🧑‍💻 Nota de Contexto
+> Este projeto é de natureza fictícia e foi desenvolvido por um recém-formado em Análise e Desenvolvimento de Sistemas (similar à área de Computer Science, em referência global) como forma de manter a prática, revisar conteúdos acadêmicos e exercitar habilidades técnicas e documentais. A proposta simula um cenário de extensão universitária voltado à própria experiência do autor com problemas cotidianos de lentidão e acúmulo de arquivos temporários no sistema operacional Windows. O objetivo é aplicar conceitos aprendidos na graduação para propor uma solução acessível e funcional, sem vínculo com nenhuma organização real.
 
 # Introdução
 
