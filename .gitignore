@@ -174,3 +174,6 @@ $tf/
 
 # Visual Studio Community
 .vs/
+/bin/
+/obj/
+codigo-fonte/Easy Clean Mate WinUI/obj/*
