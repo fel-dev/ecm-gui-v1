@@ -1,9 +1,10 @@
-> ### 🧑‍💻 Context Note (English Version)
-This is a fictional project developed by a recent graduate of the Technology Program in Systems Analysis and Development, based on academic content broadly aligned with international Computer Science curricula.<br><br>The project simulates a university extension scenario inspired by the author's personal experience with everyday issues such as system slowdown and the accumulation of temporary files on Windows.<br><br>The goal is to apply concepts learned during the undergraduate program to propose an accessible and functional solution, with no affiliation to any real organization.<br><br>As the project evolves, parts of the documentation will be gradually translated into English to increase technical reach and support international understanding.
+> 🧑‍💻 Context Note (English Version)
+This is a fictional project developed by a recent graduate of the Technology Program in Systems Analysis and Development, based on academic content broadly aligned with international Computer Science curricula.<br>The project simulates a university extension scenario inspired by the author's personal experience with everyday issues such as system slowdown and the accumulation of temporary files on Windows.<br>The goal is to apply concepts learned during the undergraduate program to propose an accessible and functional solution, with no affiliation to any real organization.<br>As the project evolves, parts of the documentation will be gradually translated into English to increase technical reach and support international understanding.
 
-# Introdução
+# 🧩 Introduction
+This project is part of the academic extension initiative, aiming to apply technical knowledge to real-world challenges faced by a fictional partner. The EasyClean Community consists of home and professional users who struggle with slow computer performance due to the accumulation of temporary and unnecessary files. Without advanced technical skills, they seek simple and effective solutions to optimize their systems.
 
-Texto descritivo apresentando a compreensão sobre extensão universitária discutido no microfundamento de nivelamento, relacionando a situação-problema da organização e ao sistema sociotécnico que será desenvolvido e implantado.
+The Easy Clean Mate GUI system is designed to address this need. It offers a user-friendly graphical interface that facilitates system cleaning and maintenance, contributing to improved performance and usability. This sociotechnical solution reflects the principles of university extension by promoting social impact through accessible technology.
 
 ## Problema
 Nesse momento o grupo deve apresentar a situação-problema (dor/oportunidade) do parceiro onde será desenvolvido sistema sociotécnico.
