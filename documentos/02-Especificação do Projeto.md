@@ -31,21 +31,30 @@ The following diagram illustrates the layered architecture of the EasyCleanMate 
 
 The Project Model Canvas provides a structured overview of the EasyCleanMate GUI project, capturing key elements such bellow:
 
-Block |	Description
-:--|:--
-Justification |	Many users struggle with accumulated temporary files that slow down their PCs. EasyCleanMate offers a lightweight, offline solution for cleaning and optimizing system performance.
-Objectives |	Develop a secure and efficient desktop application to clean temporary files, improve system performance, and allow user customization.
-Deliverables |	- EasyCleanMate GUI executable<br>- Local log and preference files<br>- Documentation and user guide
-Stakeholders |	- End users (Windows 10/11)<br>- Development team<br>- Academic evaluators
-Team |	Felipe (Lead Developer), [add other members if needed]
-Resources |	- C++ with WinUI 3<br>- Win32 API<br>- JSON/XML for local storage<br>- GitHub for version control
-Risks |	- Compatibility issues with older Windows builds<br>- Limited user permissions for file access<br>- UI responsiveness under heavy load
-Timeline |	- Week 1–2: Requirements and architecture<br>- Week 3–4: Core development<br>- Week 5: Testing and documentation
-Cost |	No financial cost; academic project using free tools and platforms
-Scope |	Offline desktop application focused on cleaning temporary files and storing user preferences locally
-Constraints |	- Must run on Windows 10/11 (64-bit)<br>- No external dependencies or internet access required
-Assumptions |	- User has administrative privileges<br>- Target machines have sufficient disk space and memory
+Block            |	Description
+:--              |:--
+Justification    |	Many users struggle with accumulated temporary files that slow down their PCs. EasyCleanMate offers a lightweight, offline solution for cleaning and optimizing system performance.
+Objectives       |	Develop a secure and efficient desktop application to clean temporary files, improve system performance, and allow user customization.
+Deliverables     |	- EasyCleanMate GUI executable<br>- Local log and preference files<br>- Documentation and user guide
+Stakeholders     |	- End users (Windows 10/11)<br>- Development team<br>- Academic evaluators
+Team             |	Felipe (Lead Developer), [add other members if needed]
+Resources        |	- C++ with WinUI 3<br>- Win32 API<br>- JSON/XML for local storage<br>- GitHub for version control
+Risks            |	- Compatibility issues with older Windows builds<br>- Limited user permissions for file access<br>- UI responsiveness under heavy load
+Timeline         |	- Week 1–2: Requirements and architecture<br>- Week 3–4: Core development<br>- Week 5: Testing and documentation
+⏱️ Development Effort | Solo development 🧑‍💻 by Felipe, with an estimated weekly commitment of 6–10 hours. Project is pursued as a personal academic initiative.
+Cost             |	Minimal cost structure. Development is carried out by a single contributor using free platforms (e.g., GitHub Pages). GitHub Copilot Pro is optionally used to enhance productivity.
+Scope            |	Offline desktop application focused on cleaning temporary files and storing user preferences locally
+Constraints      |	- Must run on Windows 10/11 (64-bit)<br>- No external dependencies or internet access required
+Assumptions      |	- User has administrative privileges<br>- Target machines have sufficient disk space and memory
 Success Criteria |	- Application runs smoothly on target OS<br>- Cleans files effectively<br>- User preferences persist locally
+
+### 💰 Cost Structure (Estrutura de Custos)
+Item	                      | Descrição	                                                              |   Tipo de Custo
+--                          |--                                                                       |--
+GitHub Copilot Pro	        | Assinatura mensal para suporte à codificação com IA                     |	Fixo recorrente (US$10,00 ~R$54,20)
+GitHub Pages	              | Hospedagem gratuita do projeto estático	                                | Sem custo
+Tempo de desenvolvimento	  | Horas dedicadas ao projeto (não monetizado, mas relevante para escopo)	| Custo indireto
+Ferramentas de documentação	| Markdown, GitHub, VS Code (gratuitos)	                                  | Sem custo
 
 #![Project Model Canvas EasyCleanMate GUI](./img/Project%20Model%20Canvas%20EasyCleanMate%20GUI.png)
 *Figure – Visual representation of the Project Model Canvas for EasyCleanMate GUI.*
@@ -119,3 +128,4 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
 Para mais informações, consulte o microfundamento "Modelagem de Dados".
+
