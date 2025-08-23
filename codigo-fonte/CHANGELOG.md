@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-# [0.1.0] - 28/07/2025
+# [0.1.0] - 28/07/2025 
 
 ## Added
 
@@ -15,12 +15,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 # [0.1.1] - 23/08/2025
 ## Added
-- Documentação de requisitos funcionais e não funcionais
-- Projeto Model Canvas com estrutura de custos e esforço de desenvolvimento
-- Especificação de perfis de usuário
+- Documentation of Functional and Non-Functional Requirements (FR and NFR)
+- Project Model Canvas with cost structure and development effort
+- Specification of user profiles
 
 ## Changed
-- Restrição C-02 revisada para permitir modificações seguras no registro
+- Constraint C-02 revised to allow safe modifications to the registry
 
 ## Note
-- Esta versão inclui apenas atualizações de documentação. Nenhuma funcionalidade foi alterada ou adicionada.
+- This version includes documentation updates only. No functionality was added or changed.
