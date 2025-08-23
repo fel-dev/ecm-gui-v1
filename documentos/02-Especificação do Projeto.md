@@ -23,7 +23,7 @@ The system will be developed in C++ using WinUI 3, targeting an offline desktop 
 The following diagram illustrates the layered architecture of the EasyCleanMate GUI system:
 
 ![Figure 1 – EasyCleanMate GUI Component Diagram (English Version](./img/02%20-%20Figure%201%20–%20EasyCleanMate%20GUI%20Component%20Diagram%20(English%20Version).png)
-*Figure 1 – EasyCleanMate GUI Component Diagram (English Version)*
+<br> *Figure 1 – EasyCleanMate GUI Component Diagram (English Version)*
 
 
 
@@ -57,7 +57,7 @@ Tempo de desenvolvimento	  | Horas dedicadas ao projeto (não monetizado, mas re
 Ferramentas de documentação	| Markdown, GitHub, VS Code (gratuitos)	                                  | Sem custo
 
 #![Project Model Canvas EasyCleanMate GUI](./img/Project%20Model%20Canvas%20EasyCleanMate%20GUI.png)
-*Figure – Visual representation of the Project Model Canvas for EasyCleanMate GUI.*
+<br> *Figure – Visual representation of the Project Model Canvas for EasyCleanMate GUI.*
 
 ## 5. Functional Requirements
 Functional requirements define the expected behavior of the system from the end-user's perspective.
@@ -110,22 +110,45 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.*
 
 ## Diagrama de Caso de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
+The use case diagram represents the interactions between users and the system, highlighting the main functional requirements through use cases and their relationships.
 
-Para mais informações, consulte o microfundamento Engenharia de Requisitos de Software
+![use case diagram](./img/casos-de-usuario--easyCleanMate.svg)
+<br>*Figura – Diagrama de Caso de Uso do EasyCleanMate GUI.*
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+### Caso de Uso: Executar Script de Limpeza
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
+  **Ator**: Administrador  
+  **Pré-condição**: O usuário confirmou a operação de limpeza  
+  **Fluxo Principal**:
+
+    1. O sistema identifica os diretórios temporários
+    2. Gera lista de arquivos elegíveis
+    3. Solicita confirmação ao usuário
+    4. Ao confirmar, o sistema aciona o script via Win32 API
+    5. Exibe espaço liberado e registra operação no log
+
+  **Pós-condição**: Arquivos temporários removidos com sucesso
+
+  **Fluxo Alternativo**:
+  - Se o usuário cancelar, o sistema cancela a operação
+---
+> **Resources to create use case diagram**:
+> - [Creating Usage Cases](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
+> - [How to Create Usage Case Diagram: Pass Tutorial](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
 > - [Lucidchart](https://www.lucidchart.com/)
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
 
+
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+The EasyCleanmate Gui database design will be implemented through local files in JSON/XML format, representing entities such as users, operating logs, and cleaning preferences. The structure follows the principles of the entity-reaction model, ensuring integrity and organization of data even without the use of a traditional SGBD.
+
+![ER Model EasyCleanMate GUI](./img/ER%20Model%20EasyCleanMate.svg)
+<br>*Figura – Modelo Entidade-Relacionamento do EasyCleanMate GUI.*
+> **Resources to create ER diagram**:
+> - [Lucidchart](https://www.lucidchart.com/)
+> - [Astah](https://astah.net/)
+> - [Diagrams](https://app.diagrams.net/)
+
 
