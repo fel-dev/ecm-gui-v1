@@ -78,8 +78,7 @@ Constraints define the technical and operational boundaries of the project, ensu
 ID	|Constraint
 --|--
 C-01	|The system will be developed exclusively in C++ with WinUI 3, without external frameworks.
-C-02	|The system must not modify the Windows registry.
-C-03	|The system will not integrate with cloud services or external APIs.
+C-02| The system may clean obsolete or temporary registry entries, but must not alter system-critical keysC-03	|The system will not integrate with cloud services or external APIs.
 C-04	|The system will require administrative permissions only for operations involving protected directories.
 
 > - [Requisitos Funcionais
