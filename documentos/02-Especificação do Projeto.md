@@ -6,24 +6,17 @@ Many Windows users experience slow system performance due to the accumulation of
 
 **EasyCleanMate GUI** addresses this gap by offering a lightweight, offline desktop application built with C++ and WinUI 3. It provides a clean and modern interface that guides users through the process of identifying and removing clutter from their systems — without requiring technical knowledge or risking system integrity. The solution focuses on simplicity, privacy, and efficiency, empowering users to optimize their computers with confidence. 
 
-## Usuários
-| Tipo de Usuário   | Descrição | Responsabilidades |
-|------------------|-----------|------------------|
-| **xxx** | xxxxx | xxxxx |
+## 2 👤 Users
 
-### Exemplo
+This section describes the user profiles who will interact with the system, their responsibilities, and specific needs.
 
-| Tipo de Usuário   | Descrição | Responsabilidades |
-|------------------|-----------|------------------|
-| **Administrador** | Gerencia a aplicação e os usuários. | Gerenciar usuários, configurar o sistema, acessar todos os relatórios. |
-| **Funcionário** | Usa a aplicação para suas tarefas principais. | Criar e editar registros, visualizar relatórios. |
+User Type	|Description	|Responsibilities
+--         |--           |--
+Administrator	|User with full access to the system.	|Manage configurations, initiate full cleanups, view logs and reports.
+Standard User	|Regular user who performs basic cleanups.	|Select file categories, start cleanup, view freed-up space.
 
 
-~~## Arquitetura e Tecnologias~~
-
-~~Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.~~
-
-## 🛠️ System architecture and Technologies
+## 3 🛠️ System architecture and Technologies
 
 The system will be developed in C++ using WinUI 3, targeting an offline desktop application for Windows 10/11 (64-bit). It will follow a layered architecture, separating concerns across the UI (XAML + C++/WinRT), application logic, and system access via Win32 API. The goal is to deliver a lightweight and secure tool for cleaning temporary files, without relying on external services. Optional local persistence will be implemented using JSON/XML files to store logs and user preferences. The project will adhere to software engineering best practices, ensuring maintainability and scalability.
 
@@ -34,11 +27,9 @@ The following diagram illustrates the layered architecture of the EasyCleanMate 
 
 
 
-## 🧩 Project Model Canvas
+## 4 🧩 Project Model Canvas
 
-~~Deve ser desenvolvido a partir do microfundamento: Empreendedorismo e inovação.
-Colocar a imagem do modelo construído apresentando a proposta de solução.~~
-
+The Project Model Canvas provides a structured overview of the EasyCleanMate GUI project, capturing key elements such bellow:
 
 Block |	Description
 :--|:--
@@ -59,40 +50,37 @@ Success Criteria |	- Application runs smoothly on target OS<br>- Cleans files ef
 #![Project Model Canvas EasyCleanMate GUI](./img/Project%20Model%20Canvas%20EasyCleanMate%20GUI.png)
 *Figure – Visual representation of the Project Model Canvas for EasyCleanMate GUI.*
 
-## 3. Requisitos Funcionais
+## 5. Functional Requirements
+Functional requirements define the expected behavior of the system from the end-user's perspective.
 
-Os requisitos funcionais definem o comportamento esperado do sistema sob a perspectiva do usuário final.
+ID	|Requirement Description	|Priority
+--|--|--
+FR-001|	The system must scan standard Windows directories for temporary files.	|High
+FR-002|	The system must allow users to select file categories for cleanup.	|High
+FR-003|	The system must display the amount of space freed after cleanup.	|Medium
+FR-004|	The system must log operations locally.	|Low
+FR-005|	The system must request confirmation before deleting files.	|High
 
-ID    |	Descrição do Requisito	Prioridade
-------|--------------------------------------
-RF-001|	O sistema deve escanear diretórios padrão do Windows em busca de arquivos temporários.	| Alta
-RF-002|	O sistema deve permitir ao usuário selecionar categorias de arquivos para limpeza.	    | Alta
-RF-003|	O sistema deve exibir o espaço liberado após a limpeza.	                                | Média
-RF-004|	O sistema deve registrar logs locais das operações realizadas.	                        | Baixa
-RF-005|	O sistema deve solicitar confirmação antes de excluir arquivos.                         |	Alta
+## 6. Non-Functional Requirements
+Non-functional requirements describe quality attributes and technical constraints that affect performance and usability.
 
-## 4. Requisitos Não Funcionais
+ID	|Requirement Description	|Priority
+--  |--                   |--
+NFR-001	|The interface must respond in under 3 seconds for operations up to 5GB.|	High
+NFR-002	|The system must operate without an internet connection.	|High
+NFR-003	|The system must use less than 150MB of RAM during normal operation. | Medium
+NFR-004	|Installation time must not exceed 1 minute on SSD-equipped machines. | Medium
+NFR-005	|The system must follow visual accessibility best practices (contrast, readable fonts).	| Medium
 
-Os requisitos não funcionais descrevem atributos de qualidade e restrições técnicas que impactam o desempenho e usabilidade da aplicação.
+## 7. Constraints
+Constraints define the technical and operational boundaries of the project, ensuring alignment with established assumptions.
 
-ID     |	Descrição do Requisito	Prioridade
--------|--------------------------------------
-RNF-001|	A interface deve responder em menos de 3 segundos para operações de até 5GB.	|Alta
-RNF-002|	O sistema deve funcionar sem conexão com a internet.	|Alta
-RNF-003|	O sistema deve utilizar menos de 150MB de memória RAM durante operação normal.	|Média
-RNF-004|	O tempo de instalação não deve exceder 1 minuto em máquinas com SSD.	|Média
-RNF-005|	O sistema deve seguir boas práticas de acessibilidade visual (contraste, fontes legíveis).	|Média
-
-## 5. Restrições
-
-As restrições delimitam o escopo técnico e operacional do projeto, garantindo aderência às premissas estabelecidas.
-
-ID  |	Restrição
-----|--------------------------------------
-R-01|	O sistema será desenvolvido exclusivamente em C++ com WinUI 3, sem uso de frameworks externos.
-R-02|	O sistema não poderá realizar modificações no registro do Windows.
-R-03|	O sistema não terá integração com serviços em nuvem ou APIs externas.
-R-04|	O sistema exigirá permissões administrativas apenas para operações que envolvam diretórios protegidos.
+ID	|Constraint
+--|--
+C-01	|The system will be developed exclusively in C++ with WinUI 3, without external frameworks.
+C-02	|The system must not modify the Windows registry.
+C-03	|The system will not integrate with cloud services or external APIs.
+C-04	|The system will require administrative permissions only for operations involving protected directories.
 
 > - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
