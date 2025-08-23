@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" style="font-family: Arial, sans-serif;">
+  <style>
+    .block { stroke: #aaa; stroke-width: 1; rx: 6; ry: 6; }
+    .title { font-size: 16px; font-weight: bold; fill: #333; text-anchor: middle; }
+    .content { font-size: 12px; fill: #333; }
+  </style>
+
+  <!-- Função auxiliar: cada bloco é um grupo -->
+  <!-- Bloco 1 -->
+  <g transform="translate(20,20)">
+    <rect width="350" height="60" fill="#FFDAB9" class="block"/>
+    <text x="175" y="35" class="title">Justification</text>
+    <rect y="60" width="350" height="180" fill="#FFF8F0" class="block"/>
+    <foreignObject x="10" y="70" width="330" height="160">
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <div style="font-size:12px;">
+          Many users struggle with accumulated temporary files that slow down their PCs. EasyCleanMate offers a lightweight, offline solution for cleaning and optimizing system performance.
+        </div>
+      </body>
+    </foreignObject>
+  </g>
+
+  <!-- Bloco 2 -->
+  <g transform="translate(400,20)">
+    <rect width="350" height="60" fill="#E6E6FA" class="block"/>
+    <text x="175" y="35" class="title">Objectives</text>
+    <rect y="60" width="350" height="180" fill="#F5F5FF" class="block"/>
+    <foreignObject x="10" y="70" width="330" height="160">
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <div style="font-size:12px;">
+          Develop a secure and efficient desktop application to clean temporary files, improve system performance, and allow user customization.
+        </div>
+      </body>
+    </foreignObject>
+  </g>
+
+  <!-- Bloco 3 -->
+  <g transform="translate(780,20)">
+    <rect width="350" height="60" fill="#D0F0C0" class="block"/>
+    <text x="175" y="35" class="title">Deliverables</text>
+    <rect y="60" width="350" height="180" fill="#F5FFFA" class="block"/>
+    <foreignObject x="10" y="70" width="330" height="160">
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <div style="font-size:12px;">
+          - EasyCleanMate GUI executable <br/>
+          - Local log and preference files <br/>
+          - Documentation and user guide
+        </div>
+      </body>
+    </foreignObject>
+  </g>
+
+  <!-- (continue com os outros blocos do mesmo jeito) -->
+
+</svg>
